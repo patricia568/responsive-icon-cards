@@ -12,6 +12,7 @@ html {
   box-sizing: border-box;
 
   font-family: sans-serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -27,8 +28,25 @@ html {
 h2 {
   font-weight: normal;
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 p {
   font-size: 1rem;
+  margin-top: 0;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+  }
