@@ -44,9 +44,29 @@ p {
   }
 
   .card-img {
-    display: inline-block;
+    display: inline;
   }
 
   .card-body {
     display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .card {
+    display: inline-block;
+    width: 33%;
   }
