@@ -93,12 +93,24 @@ body {
   }
 
   .card {
-    width: 30%;
+    width: 31%;
     float: left;
+  }
+
+  .card-2 {
+    margin-left: 10px;
+  }
+
+  .card-3 {
+    margin-left: 10px;
   }
 
   h2 {
     margin-top: 20px;
+  }
+
+  .cards {
+    width: 100%;
   }
 }
 
@@ -117,7 +129,7 @@ body {
 
   .card {
     display: inline-block;
-    width: 33%;
+    width: 31%;
   }
 
 }
