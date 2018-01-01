@@ -133,3 +133,42 @@ body {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .card-img {
+    display: inline;
+    margin: 0;
+    float: left;
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    display: block;
+    margin-top: 0;
+  }
+
+  p {
+    display: block;
+  }
+
+  .content {
+    float: left;
+    width: 80%;
+    margin-left: 15px;
+  }
+
+  .card {
+    float: left;
+    width: 32%
+  }
+
+  .card-1 {
+    margin-left: 20px;
+  }
+}
